@@ -1,0 +1,31 @@
+/* h1 {
+    color: red;
+} */
+
+
+/* Universal selector and inherited */
+/* * {
+    color: red;
+}
+
+li {
+    color: black;
+} */
+
+/* html {
+    color: violet;
+}
+
+li {
+    color: red;
+} */
+
+
+/* important */
+h1 {
+    color: red !important;
+}
+
+h1 {
+    color: green;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+
+        .image {
+            width: 100%;
+        }
+
+    </style>
+
+  </head>
+  <body>
+    <!-- 1. Resolution switching: Different size -->
+    <!-- <img
+      srcset="./image2/avatar-100x100.jpg 100w, ./image2/avatar-200x200.jpg 200w, ./image2/avatar-400x400.jpg 400w"
+      sizes="(max-width: 575px) 100px, (max-width: 991px) 200px, 400px"
+      src="./image2/avatar-400x400.jpg"
+      alt="Elva dressed as a fairy"
+    /> -->
+
+
+    <!-- 2. Resolution switching: Same size, different resolutions (cùng kích thước nhưng khác mật độ điểm ảnh)-->
+    <!-- <img srcset="./image2/avatar-200x200.jpg 1x, ./image2/avatar-400x400.jpg 2x" src="./image2/avatar-400x400.jpg" alt="" /> -->
+
+
+    <!-- 3. Art direction -->
+    <picture>
+        <source media="(max-width: 575px)" srcset="./image3/img-small.jpg" />
+        <img
+            class="image"
+            src="./image3/img-large.jpg" 
+            alt="Chris standing up holding his daughter Elva" />
+    </picture>
+
+  </body>
+</html>

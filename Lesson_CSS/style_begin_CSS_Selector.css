@@ -1,0 +1,67 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: red;
+} */
+
+/* .title.heading {
+    color: red;
+}
+
+.box .title {
+    color: red;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h2 {
+    color: red;
+}
+
+p {
+    color: green;
+} */
+
+/* h2.title {
+    color: red;
+} */
+
+/* .title1 {
+    font-style: italic;
+}
+
+.title2 {
+    text-decoration: underline;
+}
+
+.title3 {
+    text-decoration: line-through;
+}
+
+/* .title1, .title2, .title3 {
+    color: red;
+} */
+/* .red-color {
+    color: red;
+} */ 
+
+/* .box > .title {
+    color: red;
+} */
+
+/* .title + .title {
+    color: red;
+} */
+
+/* .title ~ .title {
+    color: red;
+} */
+
+/* .title ~ p {
+    color: red;
+} */
